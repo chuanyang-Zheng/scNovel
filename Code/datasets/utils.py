@@ -10,32 +10,32 @@ import numpy as np
 import os
 
 import torch.utils.data as data
-# from datasets.DeepRCDDataset import DatasetRCD
-class DatasetRCD(data.Dataset):
+from datasets.DeepRCDDataset import DatasetRCD
+# class DatasetRCD(data.Dataset):
 
 
-    def __init__(self, data,label,label_map_class):
-        self.data=data
-        self.label=label
-        self.label_map_class=label_map_class
+#     def __init__(self, data,label,label_map_class):
+#         self.data=data
+#         self.label=label
+#         self.label_map_class=label_map_class
 
 
 
 
-    def __getitem__(self, index):
-        data_this=self.data[index]
+#     def __getitem__(self, index):
+#         data_this=self.data[index]
 
-        if self.label_map_class!=-1:
-            label_this=self.label[index]
-            label_class=self.label_map_class[label_this]
-        else:
-           label_class=-1
+#         if self.label_map_class!=-1:
+#             label_this=self.label[index]
+#             label_class=self.label_map_class[label_this]
+#         else:
+#            label_class=-1
 
 
-        return data_this, label_class
+#         return data_this, label_class
 
-    def __len__(self):
-        return len(self.data)
+#     def __len__(self):
+#         return len(self.data)
 
 
 # def build_dataset(dataset, mode="train"):
