@@ -112,10 +112,6 @@ def scRare(test = None, reference = None, label = None, processing_unit = 'cuda'
 
     test_score=(test_score-1.0/num_class)/(max_socre-1.0/num_class)
 
-    # test_score[test_score<=threshold]=0
-    # test_score[test_score > threshold] = 0
-
-    # detection_result=test_score
 
 
     return test_score
