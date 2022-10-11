@@ -82,5 +82,5 @@ Column name can be anything.
 
 ## Citation
 ```
-scRare: a neural netowrk framework for novel rare cell detection of single-cell transcriptome data. Chuanyang Zheng, Yuqi Cheng, Xuesong Wang, Yixuan, Wang, Yu Li.
+scRare: a neural netowrk framework for novel rare cell detection of single-cell transcriptome data. Chuanyang Zheng, Yuqi Cheng, Xuesong Wang, Yixuan, Wang, Hongxin Wei, Yu Li.
 ```
