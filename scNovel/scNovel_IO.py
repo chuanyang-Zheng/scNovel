@@ -73,6 +73,7 @@ def CSV_IO(csv_path:str = None, label_path:str = None, with_label:bool = True):
         label['transfromed'] = label['Label'].apply(lambda x: status_dict.index(x))
         label_matrix = label['transfromed'].values
 
+        #return result
         count_matrix = adata.to_df()
         return count_matrix, label_matrix, status_dict
 
