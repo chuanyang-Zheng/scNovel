@@ -2,7 +2,7 @@
 
 ## Introduction
 
-scRare, a neural network framework for novel rare cell detection, provides a fast, accurate and user-friendly novel rare cell detection for a new single-cell RNA-seq profile. By leveraging the newly designed neural network structure and proposed two new score functions, scRare especially obtains an outperformance on novel rare cell detection((up to 16.26% more AUROC compared to the second-best method).
+scRare, a neural network framework for novel rare cell detection, provides a fast, accurate and user-friendly novel rare cell detection for a new single-cell RNA-seq profile. By leveraging the newly designed neural network structure and proposed two new score functions, scRare especially obtains an outperformance on novel rare cell detection((up to 16.26% more AUROC compared to the second-best method). 
 
 ## Requirement
 
