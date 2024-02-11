@@ -16,13 +16,13 @@ scRare, a neural network framework for novel rare cell deteciton, provides a fas
 ## Installation
 
 ```Python
-pip install scRare
+pip install scNovel==1.1.0
 ```
 
 ## Tutorial
 
 
-[scRare Tutorial](Experiments/scRare_Tutorial.ipynb)
+[scNovel Tutorial](Experiments/scNovel_Tutorial.ipynb)
 
 
 
@@ -56,11 +56,11 @@ sc.pp.log1p(test_adata)
 
 
 
-### 2. Run With scRare. 
+### 2. Run With scNovel. 
 
 ```Python
-import scRare as sr
-pred_result = sr.scRare(test_adata, train_adata, train_label, processing_unit)
+import scNovel as sr
+pred_result = sr.scNovel(test_adata, train_adata, train_label, processing_unit)
 ```
 
 in which 
@@ -78,9 +78,9 @@ Column name can be anything.
 
 ## Tutorial With Your Own Dataset
 
-- [scRare Tutorial With Custom Dataset and Training](Experiments/scRare_Tutorial_OwnDataset.ipynb)
+- [scNovel Tutorial With Custom Dataset and Training](Experiments/scNovel_Tutorial_OwnDataset.ipynb)
 
 ## Citation
 ```
-scRare: a neural netowrk framework for novel rare cell detection of single-cell transcriptome data. Chuanyang Zheng, Yuqi Cheng, Xuesong Wang, Yixuan, Wang, Hongxin Wei, Yu Li.
+scNovel: a neural netowrk framework for novel rare cell detection of single-cell transcriptome data. Chuanyang Zheng, Yuqi Cheng, Xuesong Wang, Yixuan, Wang, Hongxin Wei, Yu Li.
 ```
