@@ -11,7 +11,7 @@ from scNovel.score_functions import get_ood_scores
 
 
 
-def scRare(test = None, reference = None, label = None, processing_unit = 'cuda',score_function="sim",iteration_number=3000):
+def scNovel(test = None, reference = None, label = None, processing_unit = 'cuda',score_function="sim",iteration_number=3000):
 
     '''
 
