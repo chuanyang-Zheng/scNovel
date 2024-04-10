@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name = "scNovel",
-    version = "1.1.0",
+    version = "1.2.0",
     description = "scNovel, a neural network framework, "
                   "provides a fast and reliable tools for scRNA-seq novel rare cell detection.",
     license = "MIT Licence",
